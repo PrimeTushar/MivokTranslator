@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="#000000"
+        android:background="#6E809A"
+        app:tabTextColor="#FFFFFF"
+        android:id="@+id/tb"
+
+
+        >
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numbers"
+            android:id="@+id/tab1"
+            />
+
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family"
+            android:id="@+id/tab2"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:id="@+id/tab3"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phrases"
+            android:id="@+id/tab4"
+            />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vpager"
+        />
+  <!--  <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers">
+        <TextView
+            android:id="@+id/numview"
+            android:layout_width="match_parent"
+            style="@style/CategoryStyle"
+            android:background="?android:selectableItemBackground"
+            android:text="Numbers"
+            android:textColor="@color/black"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_colors">
+        <TextView
+            android:id="@+id/colorview"
+            android:layout_width="match_parent"
+            style="@style/CategoryStyle"
+            android:background="?android:selectableItemBackground"
+            android:text="Colors"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+        <TextView
+            android:id="@+id/famview"
+            android:layout_width="match_parent"
+            style="@style/CategoryStyle"
+            android:background="?android:selectableItemBackground"
+            android:text="family"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_phrases">
+        <TextView
+            android:id="@+id/phrview"
+            android:layout_width="match_parent"
+            style="@style/CategoryStyle"
+            android:background="?android:selectableItemBackground"
+            android:text="Phrasesd"
+
+            />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/audiotest"
+        android:layout_width="match_parent"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="audio"
+
+        />-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>
